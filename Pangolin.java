@@ -25,7 +25,7 @@ public class Pangolin {
 
     public void setNbEcailles(int nb) {
         if (nb <= 0) {
-            throw new IllegalArgumentException("Le nombre d'écailles doit être strictement positif !");
+            throw new IllegalArgumentException("Le nombre d'écailles doit être strictement positif ! 2");
         }
         this.nbEcailles = nb;
     }
